@@ -1,0 +1,6 @@
+print('Hallo')
+
+
+
+input('')
+quit()
