@@ -41,4 +41,4 @@ async def hello(interaction: discord.Interaction):
 
 
 
-client.run("OTg1MDg3MzAyNjI5OTkwNDEw.G2EFdF.sototzndZky5LRYgf7D6FQo1p5IO7ANKWoB90o")
+client.run("Dein Token")
