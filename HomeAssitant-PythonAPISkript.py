@@ -1,15 +1,14 @@
 import requests
 
-# Home Assistant Einstellungen
-HASS_URL = "http://IP_ADRESSE:8123/api/services/switch/toggle" # oder auch /light/toggle, usw    
-TOKEN = "API Token von Home Assistant"
 
-# Service-Daten (zum Beispiel, um eine Licht zu schalten)
-data = {
-    "entity_id": "switch.template" # oder auch light.licht 
+HASS_URL = "http://192.168.178.65:8123/api/services/switch/toggle"                          
+TOKEN = "12345"
+
+data = {          
+    "entity_id": "switch.fernseher" # oder auch light.licht 
 }
 
-# HTTP-Anfrage an Home Assistant senden
+
 headers = {
     "Authorization": f"Bearer {TOKEN}",
     "Content-Type": "application/json",
